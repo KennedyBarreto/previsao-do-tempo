@@ -4,6 +4,27 @@ const weatherBox = document.querySelector('.weather-box');
 const weatherDetails = document.querySelector('.weather-details');
 const error404 = document.querySelector('.not-found');
 
+function initThemeSelector() {
+    const themeSelect = document.getElementById("themeSelect");
+    const themeStylesheetLink = document.getElementById("themeStylesheetLink");
+    const currentTheme = localStorage.getItem("theme") || "default";
+
+    function activateTheme(themeName) {
+        themeStylesheetLink.setAttribute("href", `css/themes/${themeName}.css`);
+    }
+
+    themeSelect.addEventListener("change", () => {
+        activateTheme(themeSelect.value);
+        localStorage.setItem("theme", themeSelect.value);
+    });
+
+
+    themeSelect.value = currentTheme;
+    activateTheme(currentTheme);
+}
+
+initThemeSelector();
+
 search.addEventListener('click', () => {
 
     const APIKey = '110a81b2f8d8528a24eb4b41b38cb25b';
@@ -11,7 +32,7 @@ search.addEventListener('click', () => {
 
     if (city === '')
         return;
-
+    fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&lang=pt&appid=${APIKey}`)
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=pt&appid=${APIKey}`)
         .then(response => response.json())
         .then(json => {

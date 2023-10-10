@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="css/themes/default.css" rel="stylesheet" id="themeStylesheetLink">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/icon.png">
     <title>Previsão do Tempo</title>
 </head>
 <body>
+        <div class="seletor">
+        <p>Escolha um tema:</p>
+        <select id="themeSelect">
+            <option value="dark">Escuro</option>
+            <option value="light">Claro</option>
+        </select>
+        </div>
     <div class="container">
         <div class="search-box">
             <i class="fa-solid fa-location-dot"></i>
@@ -42,10 +50,15 @@
                 </div>
             </div>
         </div>
-
+        <div class="contato">
+            <a href="https://github.com/KennedyBarreto"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kennedy-barreto-26900b179/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/isnt.kennedy/"><i class="fab fa-instagram"></i></a>
+        </div>
     </div>
 
     <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
+    
 </body>
 </html>
