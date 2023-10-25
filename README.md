@@ -9,11 +9,11 @@
 <h1 align="center">Previsao Do Tempo</h1>
 
 <p align="center">
-  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/KennedyBarreto/previsao-do-tempo?color=56BEB8">
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/KennedyBarreto/previsao-do-tempo?color=af0fff">
 
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/KennedyBarreto/previsao-do-tempo?color=56BEB8">
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/KennedyBarreto/previsao-do-tempo?color=af0fff">
 
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/KennedyBarreto/previsao-do-tempo?color=56BEB8">
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/KennedyBarreto/previsao-do-tempo?color=af0fff">
 
   <img alt="Licença" src="https://img.shields.io/github/license/KennedyBarreto/previsao-do-tempo?color=af0fff">
 
@@ -42,45 +42,30 @@
 
 ## :dart: Sobre ##
 
-Sobre o seu projeto
+Site simples com o intuito de informar a previsão do tempo na localidade que o usuário desejar.<br>
+Feito utilizando HTML, CSS, JS e a API do <a href="https://openweathermap.org/"> OpenWeather </a> <br>
 
 ## :sparkles: Funcionalidades ##
 
-:heavy_check_mark: Funcionalidade 1;\
-:heavy_check_mark: Funcionalidade 2;\
-:heavy_check_mark: Funcionalidade 3;
+:heavy_check_mark: Mostrar a previsão do tempo no local inserido pelo usuário;\
+
 
 ## :rocket: Tecnologias ##
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
 
 ## :white_check_mark: Pré requisitos ##
 
-Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
+Nenhum pré requisito necessário :checkered_flag:
 
 ## :checkered_flag: Começando ##
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/KennedyBarreto/previsao-do-tempo
-
-# Entre na pasta
-$ cd previsao-do-tempo
-
-# Instale as dependências
-$ yarn
-
-# Para iniciar o projeto
-$ yarn start
-
-# O app vai inicializar em <http://localhost:3000>
-```
+Basta Clonar/Copiar o repositório em sua máquina e abrir através de um navegador
 
 ## :memo: Licença ##
 
