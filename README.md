@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Previsao Do Tempo" />
+  <img src="images/demo.png" alt="Previsao Do Tempo" />
 
   &#xa0;
 
@@ -15,7 +15,7 @@
 
   <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/KennedyBarreto/previsao-do-tempo?color=56BEB8">
 
-  <img alt="Licença" src="https://img.shields.io/github/license/KennedyBarreto/previsao-do-tempo?color=56BEB8">
+  <img alt="Licença" src="https://img.shields.io/github/license/KennedyBarreto/previsao-do-tempo?color=af0fff">
 
 
 </p>
