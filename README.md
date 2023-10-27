@@ -47,7 +47,8 @@ Feito utilizando HTML, CSS, JS e a API do <a href="https://openweathermap.org/">
 
 ## :sparkles: Funcionalidades ##
 
-:heavy_check_mark: Mostrar a previsão do tempo no local inserido pelo usuário;\
+:heavy_check_mark: Mostrar a previsão do tempo no local inserido pelo usuário; <br>
+:heavy_check_mark: Seleção de temas: Claro e Escuro.
 
 
 ## :rocket: Tecnologias ##
@@ -65,7 +66,7 @@ Nenhum pré requisito necessário :checkered_flag:
 
 ## :checkered_flag: Começando ##
 
-Basta Clonar/Copiar o repositório em sua máquina e abrir através de um navegador
+Basta Clonar/Copiar o repositório em sua máquina e abrir através de um navegador.
 
 ## :memo: Licença ##
 
